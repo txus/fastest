@@ -69,7 +69,7 @@ end
 
 And voilà:
 
-![a](http://dl.dropbox.com/u/2571594/a.png)
+![a](http://dl.dropbox.com/u/2571594/a_screenshot.png)
 
 ##Disclaimer
 
@@ -80,4 +80,5 @@ itself.
 ## Copyright
 
 Copyright (c) 2011 Josep M. Bach. Released under the MIT license.
+
 
