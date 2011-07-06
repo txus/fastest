@@ -1,7 +1,8 @@
 #a
 
-**a** is a testing framework written in 6 lines of code (or 473 characters)
-which tries to be performant, with eye-catchy reports and easy to use.
+**a** is a testing framework written in [6 lines of code](
+https://github.com/txus/a/blob/master/lib/a.rb) (or 473 characters) which
+tries to be performant, with eye-catchy reports and easy to use.
 
 Heavily inspired by Konstantin Haase's [almost-sinatra](
 http://github.com/rkh/almost-sinatra), its long-term purpose is to become the
@@ -79,3 +80,4 @@ itself.
 ## Copyright
 
 Copyright (c) 2011 Josep M. Bach. Released under the MIT license.
+
