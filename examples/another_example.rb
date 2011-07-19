@@ -1,11 +1,13 @@
+$: << 'lib'
+
 require 'a'
 
 class TestGroup < A
-  def test_falssiness
+  def test_falsiness
     a false == false
   end
 
-  def teste_nillness
+  def test_nilness
     a nil == nil
   end
 end

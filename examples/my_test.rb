@@ -12,6 +12,11 @@ class MyTestCase < A
     a !@user[:other]
   end
 
+  def test_user_has_another_property
+    a @user[:some] == :object
+    a !@user[:other]
+  end
+
   def teardown
     @user = nil
   end
