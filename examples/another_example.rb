@@ -1,6 +1,6 @@
 $: << 'lib'
 
-require 'a'
+require 'fastest'
 
 class TestGroup < A
   def test_falsiness

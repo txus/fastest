@@ -1,14 +1,16 @@
-#a
+#fastest
 
-**a** is a testing framework written in [6 lines of code](
-https://github.com/txus/a/blob/master/lib/a.rb) (or 478 characters) which
-tries to be performant, with eye-catchy reports and easy to use.
+**fastest** is a testing framework written in [6 lines of code](
+https://github.com/txus/fastest/blob/master/lib/fastest.rb) (or 461 characters)
+which tries to be performant, with eye-catchy reports and easy to use.
+
+Originally named **a**, the name was too much for Google so I changed it.
 
 Heavily inspired by Konstantin Haase's [almost-sinatra](
 http://github.com/rkh/almost-sinatra), its long-term purpose is to become the
 fastest testing framework available.
 
-In order to contribute to **a**, you have to bear in mind that the code
+In order to contribute to **fastest**, you have to bear in mind that the code
 **must** stay under 7 lines and with **less than 80 chars** per line. There is
 room for optimization.
 
@@ -21,17 +23,18 @@ room for optimization.
 
 ##Install
 
-    $ gem install a-gem
+    $ gem install fastest
 
 Or in your Gemfile:
 
-    gem 'a-gem'
+    gem 'fastest'
 
 ##Usage
 
 ````ruby
-require 'a'
+require 'fastest'
 
+# Every test case must inherit from the A class
 class MyTestCase < A
   def setup
     @user = { :some => :object }
@@ -73,13 +76,10 @@ And voilà:
 
 ##Disclaimer
 
-**a** has no automated tests nor documentation, and I will have to turn down
-any pull request that contains those, unless the tests are written in **a**
-itself.
+**fastest** has no automated tests nor documentation, and I will have to turn
+down any pull request that contains those, unless the tests are written in
+**fastest** itself.
 
 ## Copyright
 
 Copyright (c) 2011 Josep M. Bach. Released under the MIT license.
-
-
-

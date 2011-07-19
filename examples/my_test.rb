@@ -1,6 +1,6 @@
 $: << 'lib'
 
-require 'a'
+require 'fastest'
 
 class MyTestCase < A
   def setup
