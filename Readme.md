@@ -2,7 +2,6 @@
 
 **fastest** is a testing framework written in [6 lines of code](
 https://github.com/txus/fastest/blob/master/lib/fastest.rb) (or 473 characters)
-
 which tries to be performant, with eye-catchy reports and easy to use.
 
 Originally named **a**, the name was too much for Google so I changed it.
@@ -44,6 +43,7 @@ Or in your Gemfile:
 
 ````ruby
 require 'fastest'
+
 
 # Every test case must inherit from the A class
 class MyTestCase < A
