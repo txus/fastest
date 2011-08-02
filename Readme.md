@@ -1,7 +1,8 @@
 #fastest
 
 **fastest** is a testing framework written in [6 lines of code](
-https://github.com/txus/fastest/blob/master/lib/fastest.rb) (or 461 characters)
+https://github.com/txus/fastest/blob/master/lib/fastest.rb) (or 473 characters)
+
 which tries to be performant, with eye-catchy reports and easy to use.
 
 Originally named **a**, the name was too much for Google so I changed it.
@@ -13,6 +14,11 @@ fastest testing framework available.
 In order to contribute to **fastest**, you have to bear in mind that the code
 **must** stay under 7 lines and with **less than 80 chars** per line. There is
 room for optimization.
+
+In case more sophisticated behavior was needed, it could be included as an
+**optionally loadable addon**. An example of this is [fastest/parallel](
+https://github.com/txus/fastest/blob/master/lib/fastest/parallel.rb), an addon
+that enables your tests to run in parallel, which means faster.
 
 ##Features
 
@@ -28,6 +34,11 @@ room for optimization.
 Or in your Gemfile:
 
     gem 'fastest'
+
+##Addons
+
+  * Require `fastest/parallel` in your test helper or suite to run your tests
+  in parallel.
 
 ##Usage
 
